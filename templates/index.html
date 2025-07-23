@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yatra Chronicle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 p-4">
+    <div class="max-w-2xl mx-auto">
+        <h1 class="text-3xl font-bold mb-4 text-center">🕉️ Yatra Chronicle</h1>
+        
+        <form action="/" method="POST" enctype="multipart/form-data" class="bg-white p-4 shadow rounded space-y-3 mb-6">
+            <input type="text" name="place" placeholder="Pilgrimage Site (e.g., Kedarnath)" required class="w-full border p-2 rounded" />
+            <input type="text" name="language" placeholder="Language (e.g., Hindi, Tamil)" required class="w-full border p-2 rounded" />
+            <textarea name="story" placeholder="Your story or experience..." rows="4" required class="w-full border p-2 rounded"></textarea>
+            <input type="file" name="image" accept="image/*" class="w-full" />
+            <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Share Story</button>
+        </form>
+
+        <h2 class="text-xl font-semibold mb-2">📖 Community Stories</h2>
+        <div class="space-y-4">
+            {% for place, language, story, image_path in stories %}
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-bold text-lg">{{ place }} — <span class="text-sm text-gray-500">{{ language }}</span></h3>
+                    <p class="mt-2 whitespace-pre-line">{{ story }}</p>
+                    {% if image_path %}
+                        <img src="{{ url_for('static', filename=image_path.split('static/')[1]) }}" class="mt-2 rounded" />
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
