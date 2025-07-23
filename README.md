@@ -4,12 +4,12 @@
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Project Overview 🚀
 
-### 🌟 Purpose
+### 🌟 Purpose 🌟
 India's rich pilgrimage traditions are full of oral stories, rituals, and folklore—often undocumented or at risk of disappearing. This project provides a simple platform for users to submit their narratives and images from visits to pilgrimage places, helping capture the diverse spiritual and cultural experiences from across the country.
 
-### 💡 Features
+### 💡 Features 💡
 - Submit a short story (max ~500 characters) about a pilgrimage experience
 - Write in any Indian language or dialect
 - Optionally upload a related image
@@ -18,7 +18,7 @@ India's rich pilgrimage traditions are full of oral stories, rituals, and folklo
 
 ---
 
-## 🧠 AI & Linguistic Value
+## 🧠 AI & Linguistic Value 🧠
 
 This project collects:
 - First-person narrative data in native Indian languages
@@ -29,7 +29,7 @@ The content is invaluable for building inclusive, culturally aware language mode
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 🛠️
 
 - **Frontend:** HTML + Tailwind CSS
 - **Backend:** Python + Flask
@@ -38,15 +38,15 @@ The content is invaluable for building inclusive, culturally aware language mode
 
 ---
 
-## 💻 Running Locally
+## 💻 Running Locally 💻
 
-### 🔧 Prerequisites
+### 🔧 Prerequisites 🔧
 
 - Python 3.7+
 - Git
 - Virtualenv (optional but recommended)
 
-### 🐍 Set Up
+### 🐍 Set Up 🐍
 
 ```bash
 # Clone the repo
