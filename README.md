@@ -1,4 +1,4 @@
-# 🕉️ Yatra 
+# 🕉️ Yatra 🕉️
 
 **Yatra** is a lightweight web app that enables users to document and share their personal experiences and stories from Indian pilgrimage sites in their local languages. The app is designed to preserve cultural and linguistic diversity while also building a valuable dataset for AI research in regional languages.
 
